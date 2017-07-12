@@ -1,0 +1,20 @@
+form {
+  margin: 30px 0;
+}
+
+#artist, #rating {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.artist {
+  width: 66%;
+}
+
+.rating {
+  width: 17%;
+}
+
+.delete {
+  width: 17%;
+}

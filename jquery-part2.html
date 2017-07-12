@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="jquery-part2.css">
+  <title>Indie Rock</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Favorite Indie Rock Artists</h1>
+    <form action="#" class="form-inline">
+      <div class="form-group">
+        <label for="artist">Artist</label>
+        <input type="text" class="form-control" id="artist" placeholder="Artist Name">
+      </div>
+      <div class="form-group">
+        <label for="rating">Rating</label>
+        <input type="number" class="form-control" id="rating" placeholder="Rate from 1 to 10" min="1" max="10" step="1">
+      </div>
+      <button type="submit" class="btn btn-default" id="add-row">Add Artist</button>
+    </form>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th class="text-center artist">Artist</th>
+        <th class="text-center rating">Rating</th>
+        <th class="text-center delete">Delete</th>
+      </thead>
+    </table>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="jquery-part2.js"></script>
+</body>
+</html>
