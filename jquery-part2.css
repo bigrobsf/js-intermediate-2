@@ -7,6 +7,10 @@ form {
   margin-right: 20px;
 }
 
+.artist, .rating {
+  padding-top: 5px;
+}
+
 .artist {
   width: 66%;
 }
